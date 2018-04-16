@@ -1,0 +1,124 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.navbar{
+    background-color: #1c2e3f;
+    border-color: #1c2e3f;
+    border-radius: 0%;
+    padding:0;
+    margin-bottom: 0px;
+    font-size: 1.2em;
+}
+
+.navbar-brand{
+    min-height: 20px;
+    /*padding: 0 15px 5px;*/
+    
+}
+.navbar-default .navbar-nav li a{
+    color: #D5D5D5;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+    color: #FFF;
+}
+
+#home{
+    background: url(images/sky.jpg) no-repeat center fixed;
+    display: table;
+    height: 100%;
+    color: black;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.landing-text h1{
+    font-size:  500%;
+    font-weight: 700%;
+}
+
+.padding{
+    padding: 35px 0;
+}
+.padding img{
+    height: 100%;
+}
+
+.titleImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-content: center;
+}
+
+
+.about{
+    text-align: center;
+    color: #D5D5D5;
+    background-color: #28435b;
+    padding: 50px 5px 50px;
+}
+
+.about h2{
+    font-size: 3em;
+    font-weight: bold;
+}
+.port{
+    color: #D5D5D5;
+    background-color: #3b6387;
+    padding: 50px 5px 50px;
+}
+.port h1{
+    text-align: center;
+    font-weight: bold;
+}
+.port h3{
+    text-align: center;
+    font-weight: bold;
+}
+.port h4{
+    text-align: center;
+}
+
+.bot{
+    color: #D5D5D5;
+    background-color: #4b80af;
+    padding: 50px 5px 50px;
+}
+.bot h1{
+    text-align: center;
+    font-weight: bold;
+}
+.lead{
+        text-align: center;
+
+}
+
+.contacts{
+    color: #D5D5D5;
+    background-color: #5899d3;
+    padding: 50px 5px 60px;
+}
+.contacts h1{
+        text-align: center;
+    font-weight: bold;
+}
+.contacts h3{
+        text-align: center;
+
+}
+
+/*.castleImg{
+    display: table;
+    width: auto;
+    height: auto;
+    align-content: center;
+}*/
